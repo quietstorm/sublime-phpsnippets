@@ -26,12 +26,12 @@
     <content><![CDATA[
 
 public function get${1/(.*)/\u$1/:[ Prop name ]}(){
-    return \$this->${1:[ Prop name ]};
+	return \$this->${1:[ Prop name ]};
 }
 
 public function set${1/(.*)/\u$1/:[ Prop name ]}(\$${1/(.*)/$1/:[ Prop name ]}){
-    \$this->${1:[Prop name ]}=\$${1/(.*)/$1/:[ Prop name ]};
-    return \$this;
+	\$this->${1:[Prop name ]}=\$${1/(.*)/$1/:[ Prop name ]};
+	return \$this;
 }
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
