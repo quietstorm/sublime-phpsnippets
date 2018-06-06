@@ -24,7 +24,6 @@
 -->
 <snippet>
     <content><![CDATA[
-
 public function get${1/(.*)/\u$1/:[ Prop name ]}(){
 	return \$this->${1:[ Prop name ]};
 }
